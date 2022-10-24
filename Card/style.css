@@ -1,0 +1,101 @@
+img {
+  width: 333px;
+  height: 263px;
+  border-radius: 13px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: #F5F5F5;
+  font-family: 'Inter', sans-serif;
+}
+
+#container {
+  width: 350px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 20vh;
+}
+
+.card {
+  background-color: #eaeaea;
+  padding: 10px 8px 31px 9px;
+  border-radius: 20px;
+  border: 2px solid #D0D0D0;
+}
+
+.tag-1,
+.tag-2 {
+  border-radius: 10.5px;
+  font-size: 12px;
+  color: #FFF;
+}
+
+.tag-1 {
+  background-color: #13C2C2;
+  border: 1px solid #13C2C2;
+  padding: 2px 15px;
+  margin: 1px 3.5px 17px 6px;
+}
+
+.tag-2 {
+  background-color: #1890FF;
+  border: 1px solid #1890FF;
+  padding: 2px 21px;
+  margin: 1px 0 17px 3.5px;
+}
+
+.name {
+  padding: 0 9px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #084150;
+  margin-top: 17px;
+}
+
+
+article {
+  position: relative;
+}
+
+article:after {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: linear-gradient(0.29deg, #EAEAEA 0.27%, rgba(217, 217, 217, 0) 99.77%);
+  pointer-events: none;
+  /* so the text is still selectable */
+}
+
+p {
+  margin: 0;
+  width: 311px;
+  padding: 10px 13px 20px 9px;
+  line-height: 19px;
+  color: #0A4251;
+  text-align: justify;
+}
+
+button {
+  border: none;
+  padding: 15px 27px 14px 28px;
+  background-color: #59889A;
+  border-radius: 57px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFF;
+  margin: 0 auto;
+  display: block;
+
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+button:focus,
+button:hover {
+  background-color: rgba(255, 255, 255, 0.362);
+  color: #59889A;
+}
