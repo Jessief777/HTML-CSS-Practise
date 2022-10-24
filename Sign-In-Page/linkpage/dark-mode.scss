@@ -1,6 +1,6 @@
 :root {
   --page-background: #1E3143;
-  --font-color:#08979C;
+  --font-color: #08979C;
 }
 
 * {
@@ -71,6 +71,7 @@ section {
   background: var(--page-background);
   box-shadow: inset 4px 4px 12px #152534, inset -4px -4px 12px rgba(147, 147, 147, 0.25);
   border-radius: 60px;
+  color: var(--font-color);
 }
 
 ::placeholder {
