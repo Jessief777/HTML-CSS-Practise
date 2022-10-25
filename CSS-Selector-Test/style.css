@@ -163,12 +163,12 @@ button[class='warning'] {
   - Margin top of 40px
   - Font style of italic
 */
-/* #container p {
+/* #container> p {
   margin-top: 40px;
   font-style: italic;
 } */
 
-alert__details>p {
+.alert__details>p {
   margin-top: 40px;
   font-style: italic;
 }
