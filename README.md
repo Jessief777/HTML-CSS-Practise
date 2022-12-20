@@ -4,3 +4,4 @@
 - Sign In Page
 - Sign up Form
 - Flexbox Cards
+- Profile Page (flexbox & grid)
